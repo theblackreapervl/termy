@@ -1,5 +1,5 @@
 #!/bin/bash
-reset
+clear
 # detect ctrl+c exiting
 trap 'printf "\n";stop;exit 1' 2
 ex() {
@@ -98,7 +98,7 @@ echo '
 ║██║║██║║██║ ███████║║██║  ║██ ║███████║
 ║██║╚══╝║██║ ██╔══██║║██║  ║██ ║██╔════  
 ║██║    ║██║ ██║  ██║║██████║  ║███████║    
-╚══╝    ╚══╝ ╚═╝  ╚═╝╚══════╝  ╚═══════╝ V2.2
+╚══╝    ╚══╝ ╚═╝  ╚═╝╚══════╝  ╚═══════╝V2.2
 '| lolcat -a -d 20
 echo "Este script esta hecho con fines educativo"
 echo  ' "Autor LUIGUI"'
@@ -417,7 +417,7 @@ echo '
 ║██║║██║║██║ ███████║║██║  ║██ ║███████║
 ║██║╚══╝║██║ ██╔══██║║██║  ║██ ║██╔════  
 ║██║    ║██║ ██║  ██║║██████║  ║███████║    
-╚══╝    ╚══╝ ╚═╝  ╚═╝╚══════╝  ╚═══════╝ V2.1
+╚══╝    ╚══╝ ╚═╝  ╚═╝╚══════╝  ╚═══════╝V2.2
 '| lolcat -a -d 20
 echo "Este script esta hecho con fines educativo"
 echo  '  "Autor LUIGUI"'
@@ -586,7 +586,8 @@ echo " "
         fi
 	fi
 	elif [[ $vol -eq 23 ]]; then
-        reset
+        ./retornal.sh
+         clear
         fi
         
     ;;

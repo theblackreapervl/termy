@@ -1,5 +1,5 @@
 #!/bin/bash
-reset
+clear
 # detect ctrl+c exiting
 trap 'printf "\n";stop;exit 1' 2
 ex() {
@@ -281,7 +281,7 @@ echo '
 ║██║║██║║██║ ███████║║██║  ║██ ║███████║
 ║██║╚══╝║██║ ██╔══██║║██║  ║██ ║██╔════  
 ║██║    ║██║ ██║  ██║║██████║  ║███████║    
-╚══╝    ╚══╝ ╚═╝  ╚═╝╚══════╝  ╚═══════╝ V2.2
+╚══╝    ╚══╝ ╚═╝  ╚═╝╚══════╝  ╚═══════╝V2.2
 '| lolcat -a -d 4
 echo ''
 echo ''
@@ -306,8 +306,8 @@ echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la pagina:\e[0m""\e[1;31m]\e[0m"
 read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_va1
 ngrok_server
 elif [[ $option_server -eq 4 ]]; then
-reset
 ./retornal.sh
+clear
 elif [[ $option_server -eq 3 ]]; then
 echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la carpeta:\e[0m""\e[1;31m]\e[0m"
 read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_va2 
